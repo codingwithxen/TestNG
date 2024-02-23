@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Infinite.TestNG.testCaseRetry">
+      <class name="Infinite.TestNG.CrossBrowserTest_2">
         <methods>
-          <include name="Test"/>
-          <include name="AfterTest"/>
-          <include name="beforeTest"/>
+          <include name="googleSearch"/>
+          <include name="BrowserChoice"/>
         </methods>
-      </class> <!-- Infinite.TestNG.testCaseRetry -->
+      </class> <!-- Infinite.TestNG.CrossBrowserTest_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

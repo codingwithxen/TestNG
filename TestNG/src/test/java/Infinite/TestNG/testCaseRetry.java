@@ -49,6 +49,11 @@ public class testCaseRetry {
 
 	@AfterTest
 	public void AfterTest() {
-	driver.close();
+	try {
+		driver.close();
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 }
 }
