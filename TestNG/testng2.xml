@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "D:/testng-1.1.dtd" >
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="EdgeTest">
+  <parameter name="browser" value="Edge"/>
+    <classes >
+      <class name="Infinite.TestNG.CrossBrowserTesting"/>
+    </classes>
+  </test> 
+  <test name="Firefoxtest">
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Infinite.TestNG.CrossBrowserTesting"/>
+    </classes>
+  </test> 
+  <test name="ChromeTest">
+  <parameter name="browser" value="Chrome"/>
+  <classes>
+      <class name="Infinite.TestNG.CrossBrowserTesting"/>
+    </classes>
+  </test>
+</suite> 

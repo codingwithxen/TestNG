@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "D:/testng-1.1.dtd" >
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="TestClass">
+    <classes >
+      <class name="Infinite.TestNG.TestClass"/>
+    </classes>
+  </test> 
+  <test name="TestGoogle">
+    <classes>
+      <class name="Infinite.TestNG.Admin"/>
+    </classes>
+  </test> 
+</suite> 
